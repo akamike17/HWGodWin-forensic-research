@@ -9,7 +9,14 @@ This repository preserves research material in a form that can be independently 
 ## Published research
 
 - [`INFORME_FINAL.md`](./INFORME_FINAL.md) — principal forensic report.
-- [`Activation and distribution forensics`](./analysis/activation-and-distribution-forensics.md) — static analysis of activation/licensing behavior, remote distribution, persistence, tracking surface, and the remotely served payload.
+- [`Activation and distribution forensics`](./analysis/activation-and-distribution-forensics.md) — analysis of activation/licensing behavior, remote distribution, persistence and tracking surface.
+- [`Consolidated technical findings`](./analysis/TECHNICAL_FINDINGS.md) — current synthesis incorporating the stronger payload/runtime evidence and superseding earlier hypotheses where necessary.
+
+## Selected evidence
+
+- [`Network observations`](./evidence/network-observations.txt) — selected Goodwin-side POST endpoints observed during instrumented analysis; no live credentials included.
+- [`Loader sandbox success log`](./evidence/sandbox-loader-success.log) — successful stubbed loader/chunk-read execution.
+- [`Known sandbox error`](./evidence/sandbox-known-error.log) — preserved analysis failure rather than discarded evidence.
 
 ## Evidence standard
 
@@ -21,19 +28,19 @@ Anything that cannot be demonstrated from the available evidence must be identif
 
 The investigation may include static analysis, behavioral observation, artifact inspection, controlled execution, comparison of outputs, integrity verification, and reproduction of relevant findings. Tests are performed only on systems, software, and material for which the researcher has authorization.
 
+## Publication boundary
+
+The public repository intentionally favors reviewable findings and selected evidence over redistribution of operational payloads. Raw multi-megabyte encoded tables, reconstructed cheat code, live credentials, user-specific session material and unnecessary sensitive data are not published here.
+
 ## Reproducibility
 
 Where practical, findings include enough information for an independent reviewer to reproduce the observation without relying solely on conclusions in the report. Environment-specific limitations and unavailable dependencies should be documented explicitly.
 
 ## Repository structure
 
-As supporting material is published, it may be organized as:
-
-- `reports/` — final and interim technical reports.
-- `evidence/` — evidence suitable for public distribution, hashes, manifests, and acquisition records.
-- `analysis/` — technical notes and analysis derived from evidence.
-- `reproduction/` — procedures and material required to reproduce validated observations.
-- `screenshots/` — supporting screenshots with sensitive information removed where necessary.
+- `analysis/` — technical analysis derived from evidence.
+- `evidence/` — selected public evidence, logs and observations.
+- Root reports — principal research reports retained at their published paths.
 
 ## Responsible publication
 
