@@ -1,0 +1,33 @@
+Selected runtime network observations
+=====================================
+
+Method: POST
+Body observed as Blob in instrumented runtime.
+
+Observed Goodwin endpoints include:
+
+https://switzerland.goodwin.best/request/auth.php
+https://hw-script.goodwin.best/request/auth.php
+https://finland.goodwin.best/request/auth.php
+https://finland.goodwin.best/request/ultra/getTiming.php
+https://finland.goodwin.best/request/rating/getData.php
+https://finland.goodwin.best/request/invasion/rating.php
+https://finland.goodwin.best/request/invasion/kwbStats.php
+https://finland.goodwin.best/request/upload/asgardReplay.php
+https://finland.goodwin.best/request/quiz/findAnswer.php
+https://finland.goodwin.best/request/dung/optimalParams.php
+https://finland.goodwin.best/request/invasion/kwbFolio.php
+https://finland.goodwin.best/request/upload/EBR.php
+https://finland.goodwin.best/request/quiz/sendQuestion.php
+https://finland.goodwin.best/request/invasion/kwbKill.php
+https://finland.goodwin.best/request/rating/getServerList.php
+https://finland.goodwin.best/request/upload/banReport.php
+https://finland.goodwin.best/request/rating/upload.php
+https://finland.goodwin.best/request/activateCode.php
+https://finland.goodwin.best/request/upload/userData.php
+
+Notes
+-----
+- These strings are preserved as forensic observations from an instrumented/sandboxed analysis.
+- Presence of an endpoint does not by itself prove successful server-side execution or a particular server response.
+- No credentials, cookies, account identifiers or live authentication values are included here.
