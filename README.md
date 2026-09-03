@@ -6,9 +6,10 @@ Independent technical and forensic research into HWGodWin software behavior, art
 
 This repository preserves research material in a form that can be independently reviewed and reproduced. The goal is to separate observed evidence from interpretation and document the methodology, limitations, and results of the investigation.
 
-## Current report
+## Published research
 
-The principal report currently published in this repository is [`INFORME_FINAL.md`](./INFORME_FINAL.md).
+- [`INFORME_FINAL.md`](./INFORME_FINAL.md) — principal forensic report.
+- [`Activation and distribution forensics`](./analysis/activation-and-distribution-forensics.md) — static analysis of activation/licensing behavior, remote distribution, persistence, tracking surface, and the remotely served payload.
 
 ## Evidence standard
 
