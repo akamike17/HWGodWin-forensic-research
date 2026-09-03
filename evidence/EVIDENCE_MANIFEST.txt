@@ -1,0 +1,13 @@
+# Selected public evidence manifest — HW Goodwin
+# Original forensic package date: 2026-08-19
+# Format: SHA256  artifact
+
+2b84bc148e8e0624d15b6cab4a6f877f1a68237d57ce240e8ea2ea2b2ff8f585  HW Goodwin-5.1.txt
+7c49434020ec8393a69bd032b68a75627392fe63baf2d3b6e08a17d2fd66d626  INFORME_FINAL.md
+e40623c4d13ba981cf9d433965ea2c83f19c60ca7d5f3b65ecf263c0cfaa647c  INFORME_FINAL_HW_GOODWIN.md
+3cd8ef046599a518e68f3b68c3de8e2a49fc825e171ed9be601631529812b719  verificar_evidencia.ps1
+20ef190437e0768f60b14a2cf1994fae16b7127f3c754606b8b633688784a254  clave_verificacion_publica.pem
+
+# Additional artifacts from the original package are intentionally not redistributed
+# in the public repository. The original manifest recorded 47 evidence files.
+# Private signing material is explicitly excluded from publication.
