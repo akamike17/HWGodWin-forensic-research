@@ -1,0 +1,8 @@
+log: HW Goodwin script loader launched
+log: HW Goodwin script loader launched
+log: HW Goodwin script loader launched
+fetch-stub: success response; readCalls=1 firstRead=true
+fetch-stub: getReader() called
+fetch-stub: read#1 -> done:false
+fetch-stub: read#2 -> done:true
+log: HW Goodwin loaded from switzerland.goodwin.best
